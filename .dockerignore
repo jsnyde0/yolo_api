@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.venv/
+env/
+ENV/
+
+# Ignore version control
+.git/
+.gitignore
+
+# Ignore local IDE settings
+.vscode/
+.idea/
+
+# Ignore model files if mounting
+*.pt
+
+# Ignore other unnecessary files
+*.log

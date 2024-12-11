@@ -50,8 +50,6 @@ def draw_detections(
             # Get color for this class
             color = colors[class_id_int]
 
-            print(f"Class ID: {class_id_int}, Color: {color}")
-
             # Draw box
             draw.rectangle(box_coords, outline=color, width=2)
 
